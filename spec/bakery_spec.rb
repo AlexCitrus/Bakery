@@ -1,5 +1,5 @@
-require 'bakery'
+require 'vagemite_scroll'
 
 
-RSpec.describe bakery do
+RSpec.describe VegemiteScroll do
 end
