@@ -4,10 +4,7 @@
 See [here](./Codingchallenge_.pdf) for the problem statement.
 
 ### Open Bakery CLI
-run the  ``` main.rb ``` file.
-```ruby
-bakery = Bakery.new()
-```
+run the  ``` runner.rb ``` file.
 
 ### Place Order
 
