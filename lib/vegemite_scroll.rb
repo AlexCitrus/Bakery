@@ -31,7 +31,9 @@ class VegemiteScroll
     end
   
     def compute_total_cost
-      puts "#{@quantity} VS5 $#{(@pack_of_five * 8.99 + @pack_of_three * 6.99).round(2)}"
+      pack_of_five_total = 8.99
+      pack_of_three_total = 6.99
+      puts "#{@quantity} VS5 $#{(@pack_of_five * pack_of_five_total + @pack_of_three * pack_of_three_total).round(2)}"
       puts "      #{@pack_of_three} x 3 $6.99" if @pack_of_three.positive?
       puts "       #{@pack_of_five} x 5 $8.99" if @pack_of_five.positive?
     end
