@@ -11,11 +11,11 @@ puts
 order_string = gets.chomp
 quantity, code = order_string.split
 puts "==================================="
-if code == "VS5"
+if code.upcase == "VS5"
   VegemiteScroll.new(quantity.to_i)
-elsif code == "MB11"
+elsif code.upcase == "MB11"
   puts "Wala pa"
-elsif code == "CF"
+elsif code.upcase == "CF"
   puts "Wala pa"
 end
 puts "==================================="

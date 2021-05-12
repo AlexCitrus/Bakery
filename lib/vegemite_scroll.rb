@@ -6,12 +6,12 @@ class VegemiteScroll
       @pack_of_three = pack_of_three
       @pack_of_five = pack_of_five
       puts
-      return compute_vegemite_packs
+      return compute_packages
     end
   
     private
   
-    def compute_vegemite_packs
+    def compute_packages
       order_quantity = @quantity
   
       if (quantity % 5).zero?
